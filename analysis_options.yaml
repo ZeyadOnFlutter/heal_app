@@ -1,0 +1,54 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # ✅ Prefer single quotes for consistency in strings
+    prefer_single_quotes: true
+
+    # 🚫 Avoid using print statements in production code
+    avoid_print: true
+
+    # 🚫 Avoid having empty catch blocks
+    empty_catches: true
+
+    # ✅ Prefer const constructors where possible for performance
+    prefer_const_constructors: true
+
+    # ✅ Prefer final for variables that are not reassigned (locals)
+    prefer_final_locals: true
+
+    # ✅ Prefer final for variables that are not reassigned (fields)
+    prefer_final_fields: true
+
+    # 🚫 Avoid redundant null checks
+    unnecessary_null_checks: true
+
+    # ✅ Use const for immutable widgets for better performance
+    prefer_const_literals_to_create_immutables: true
+
+    # 🚫 Avoid using the dynamic keyword unnecessarily
+    avoid_annotating_with_dynamic: true
+
+    # 🚫 Avoid reassigning parameters inside methods/functions
+    parameter_assignments: false
+
+    # ✅ Prefer relative imports for files in the lib/ folder
+    prefer_relative_imports: true
+
+    # 🚫 Avoid unnecessary `this.` usage for variables, parameters, and imports
+    unnecessary_this: true
+
+    # ✅ Always declare the return type of functions and methods
+    always_declare_return_types: true
+
+    # ✅ Keep directives (import/export/part) in a consistent order
+    directives_ordering: true
+
+    # ✅ Require trailing commas for better git diffs and formatting
+    require_trailing_commas: true
+
+    # ✅ Ensure files end with a single empty line
+    eol_at_end_of_file: true
+
+    # 🚫 Disable requirement for using keys in widget constructors
+    use_key_in_widget_constructors: false

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "822352728701",
+    "project_id": "heal-app-33220",
+    "storage_bucket": "heal-app-33220.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822352728701:android:553c1f50b046806b031714",
+        "android_client_info": {
+          "package_name": "com.example.heal_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822352728701-qilfts2htvlqik1v1it27354gaf857lq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.heal_app",
+            "certificate_hash": "d9924370f9aef24d20bd8b2012695dbabf5f7bff"
+          }
+        },
+        {
+          "client_id": "822352728701-pu8m5h6mlhd1gkjdle3umertr2n14isu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKI-RDTkMmATrV9-WXGBNz1uCAy4SNWBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822352728701-mploj9021voqsurepqk2tvbucksp3m63.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "822352728701-89lceg13fq154ura5djaffs7brb1a1tl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.healApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

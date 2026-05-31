@@ -1,16 +1,32 @@
-# heal_app
+# 🩺 Heal – AI-Powered Medical Diagnosis App
 
-A new Flutter project.
+Heal is a Flutter-based healthcare platform that helps patients receive preliminary medical assessments from home using AI-powered image analysis, symptom surveys, and natural language descriptions. Doctors can review and validate patient reports, while admins manage users and platform operations.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+* 🔐 Firebase Authentication
+* 👥 Role-based access (Patient, Doctor, Admin)
+* 🤖 AI-powered disease detection and analysis
+* 📋 Symptom surveys & NLP text analysis
+* 🩺 Doctor dashboard for patient review and validation
+* 🛠️ Admin dashboard for user management
+* 💬 Real-time doctor–patient chat
+* 📊 Patient diagnosis history
+* ☁️ Firebase Storage for medical images
+* 🔄 Persistent login with Hydrated BLoC
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Flutter, Dart
+* Firebase (Auth, Firestore, Storage)
+* BLoC / Cubit, Hydrated BLoC
+* AI & Machine Learning APIs
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/your-username/heal.git
+cd heal
+flutter pub get
+flutter run
+```
